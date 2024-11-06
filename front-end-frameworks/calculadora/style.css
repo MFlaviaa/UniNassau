@@ -1,0 +1,58 @@
+/* Estilos para o corpo e centralização */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #cd3d93, #c00e70); /* Gradiente de fundo */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* Estilos da calculadora */
+.calculadora {
+    background-color: #eeedf6; /* Fundo branco */
+    border-radius: 20px; /* Bordas mais arredondadas */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+    width: 350px; /* Largura da calculadora */
+}
+
+/* Estilo da tela */
+.display {
+    padding: 20px;
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+    text-align: right;
+    background-color: #bab1b4; /* Fundo da tela */
+    border-top-left-radius: 20px; /* Bordas arredondadas na tela */
+    border-top-right-radius: 20px;
+    color: #333; /* Cor do texto */
+    min-height: 90px; /* Altura mínima da tela */
+    overflow: hidden; /* Evita o transbordamento de texto */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interna */
+}
+
+/* Estilo dos botões */
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 1px; /* Espaçamento entre os botões */
+}
+
+/* Estilo base dos botões */
+.botoes button {
+    padding: 20px; /* Espaçamento interno dos botões */
+    font-size: 1.5em; /* Tamanho da fonte */
+    border: none; /* Remove bordas padrão */
+    background-color: #e0e0e0; /* Cor de fundo dos botões */
+    color: #333; /* Cor do texto */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Animação suave */
+    border-radius: 10px; /* Bordas arredondadas nos botões */
+}
+
+/* Efeito de hover nos botões */
+.botoes button:hover {
+    background-color: #e6039e; /* Cor ao passar o mouse */
+    transform: tra
+
+    
